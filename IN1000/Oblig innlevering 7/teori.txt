@@ -1,0 +1,11 @@
+b) En fordel ved å ikke lese inn filen med filmer i konstruktøren er at det gir større 
+fleksibilitet. Hvis filen leses i konstruktøren, vil innholdet kun leses inn én gang når 
+objektet opprettes, og det blir vanskelig å oppdatere listen med nye filmer senere.
+Ved å ha en egen metode for å lese inn filen (som les_filmer_fra_fil), kan man når som 
+helst oppdatere filmklubben med nye filmer uten å måtte opprette et nytt objekt. Dette gjør 
+det lettere å legge til eller oppdatere filmer dynamisk mens programmet kjører.
+
+c) Årstall består av fire siffer, noe som gjør at int (heltall) 
+er et naturlig valg. En annen type som kunne vurderes, er float (desimalltall).
+Det ville være unødvendig å bruke float fordi årstall alltid er heltall og ikke har desimaler. 
+Å bruke int gjør koden mer effektiv og enklere.
