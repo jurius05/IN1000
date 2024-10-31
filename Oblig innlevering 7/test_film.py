@@ -51,6 +51,7 @@ def test_film():
     print(film_1.sjekk_tittel("The"))  # Skal gi True
     print(film_2.sjekk_tittel("Game"))  # Skal gi False
     print('')
+    print('hallo')
 
     # __str__
     # Skriv ut film-objekt med print
